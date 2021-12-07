@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-26T12:20:30 CET" name="All Pet Store Tests" finished-at="2021-11-26T12:20:40 CET" duration-ms="9445">
+    <groups>
+    </groups>
+    <test started-at="2021-11-26T12:20:30 CET" name="Negative Login Tests" finished-at="2021-11-26T12:20:34 CET" duration-ms="3848">
+      <class name="Zadania9.tests.FailedLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Zadania9.tests.FailedLoginTests@7205765b]" started-at="2021-11-26T12:20:30 CET" name="beforeClass" finished-at="2021-11-26T12:20:31 CET" duration-ms="325" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Zadania9.tests.FailedLoginTests@7205765b]" started-at="2021-11-26T12:20:31 CET" name="beforeTest" finished-at="2021-11-26T12:20:33 CET" duration-ms="2210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserTryToLogInWithIncorrectLoginAndPassword()[pri:0, instance:Zadania9.tests.FailedLoginTests@7205765b]" started-at="2021-11-26T12:20:33 CET" name="asUserTryToLogInWithIncorrectLoginAndPassword" finished-at="2021-11-26T12:20:33 CET" duration-ms="675" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserTryToLogInWithIncorrectLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Zadania9.tests.FailedLoginTests@7205765b]" started-at="2021-11-26T12:20:33 CET" name="afterTest" finished-at="2021-11-26T12:20:34 CET" duration-ms="621" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Zadania9.tests.FailedLoginTests -->
+    </test> <!-- Negative Login Tests -->
+    <test started-at="2021-11-26T12:20:34 CET" name="Positive Login Tests" finished-at="2021-11-26T12:20:37 CET" duration-ms="2727">
+      <class name="Zadania9.tests.PositiveLoginTests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Zadania9.tests.PositiveLoginTests@5b03b9fe]" started-at="2021-11-26T12:20:34 CET" name="beforeClass" finished-at="2021-11-26T12:20:34 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Zadania9.tests.PositiveLoginTests@5b03b9fe]" started-at="2021-11-26T12:20:34 CET" name="beforeTest" finished-at="2021-11-26T12:20:35 CET" duration-ms="1443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asUserLoginUsingValidLoginAndPassword()[pri:0, instance:Zadania9.tests.PositiveLoginTests@5b03b9fe]" started-at="2021-11-26T12:20:35 CET" name="asUserLoginUsingValidLoginAndPassword" finished-at="2021-11-26T12:20:36 CET" duration-ms="668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asUserLoginUsingValidLoginAndPassword -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Zadania9.tests.PositiveLoginTests@5b03b9fe]" started-at="2021-11-26T12:20:36 CET" name="afterTest" finished-at="2021-11-26T12:20:37 CET" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Zadania9.tests.PositiveLoginTests -->
+    </test> <!-- Positive Login Tests -->
+    <test started-at="2021-11-26T12:20:37 CET" name="Shopping Cart Tests" finished-at="2021-11-26T12:20:40 CET" duration-ms="2850">
+      <class name="Zadania9.Zadanie1.ShoppingCartTest">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:Zadania9.Zadanie1.ShoppingCartTest@2ea41516]" started-at="2021-11-26T12:20:37 CET" name="beforeClass" finished-at="2021-11-26T12:20:37 CET" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:Zadania9.Zadanie1.ShoppingCartTest@2ea41516]" started-at="2021-11-26T12:20:37 CET" name="beforeTest" finished-at="2021-11-26T12:20:38 CET" duration-ms="1431" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="asNotLoggedInUserIShallNotProceedToCheckout()[pri:0, instance:Zadania9.Zadanie1.ShoppingCartTest@2ea41516]" started-at="2021-11-26T12:20:38 CET" name="asNotLoggedInUserIShallNotProceedToCheckout" finished-at="2021-11-26T12:20:39 CET" duration-ms="803" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- asNotLoggedInUserIShallNotProceedToCheckout -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:Zadania9.Zadanie1.ShoppingCartTest@2ea41516]" started-at="2021-11-26T12:20:39 CET" name="afterTest" finished-at="2021-11-26T12:20:40 CET" duration-ms="614" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- Zadania9.Zadanie1.ShoppingCartTest -->
+    </test> <!-- Shopping Cart Tests -->
+  </suite> <!-- All Pet Store Tests -->
+</testng-results>
